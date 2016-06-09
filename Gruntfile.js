@@ -168,25 +168,6 @@ module.exports = function(grunt) {
     },
 
     /**
-     * Minify concated CSS files
-     * Compresses and minifies CSS
-     */
-    csso: {
-      build: {
-        options: {
-          banner: '<%= tag.banner %>',
-          report: 'gzip'
-        },
-        files: [{
-          expand: true,
-          cwd: '<%= dir.build %><%= dir.css %>',
-          src: '**/*.css',
-          dest: '<%= dir.build %><%= dir.css %>'
-        }]
-      }
-    },
-
-    /**
      * Compresses Image files
      * Compresses all images
      */
@@ -400,8 +381,7 @@ module.exports = function(grunt) {
     'replace:build',
     'imagemin:build',
     'svgmin:build',
-    'autoprefixer:build',
-    'csso:build'
+    'autoprefixer:build'
   ]);
 
   /**
