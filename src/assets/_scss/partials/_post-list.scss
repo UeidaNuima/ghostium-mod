@@ -8,7 +8,7 @@
 
 .post-item {
   position: relative;
-  padding: 35px 0;
+  padding: 35px 10px;
   border-bottom: 1px solid $line-breaks-color;
   word-wrap: break-word;
 
@@ -21,10 +21,25 @@
   }
 }
 
+.post-item-image {
+  background-size: 100%;
+  background-position: center;
+
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left:0;
+
+  opacity: 0.1;
+}
+
 .post-item-header {}
 
 .post-item-title {
   line-height: 1.1;
+  position: relative;
 
   a {
     text-decoration: none;
@@ -39,13 +54,16 @@
 .post-item-excerpt {
   font-size: 18px;
   line-height: 1.4;
+  position: relative;
 
   p {
     margin: 0;
   }
 }
 
-.post-item-footer {}
+.post-item-footer {
+  position: relative;
+}
 
 .post-item-meta-list {
   margin: 0;

@@ -3390,7 +3390,7 @@ body.drawer-transition {
 
 .post-item {
   position: relative;
-  padding: 35px 0;
+  padding: 35px 10px;
   border-bottom: 1px solid #F2F2F2;
   word-wrap: break-word;
 }
@@ -3403,8 +3403,21 @@ body.drawer-transition {
   border-bottom: 0;
 }
 
+.post-item-image {
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .1;
+}
+
 .post-item-title {
   line-height: 1.1;
+  position: relative;
 }
 
 .post-item-title a {
@@ -3414,10 +3427,15 @@ body.drawer-transition {
 .post-item-excerpt {
   font-size: 18px;
   line-height: 1.4;
+  position: relative;
 }
 
 .post-item-excerpt p {
   margin: 0;
+}
+
+.post-item-footer {
+  position: relative;
 }
 
 .post-item-meta-list,

@@ -23,6 +23,7 @@
                 </li>
               {{/if}}
               <li class="post-meta-item">
+                <i class="fa fa-comments"></i>
                 <a href="#disqus_thread" data-disqus-identifier="{{id}}">Comments</a>
               </li>
             </ul>
@@ -45,6 +46,11 @@
               </div>
             </div>
           </aside>
+          <div class="post-image">
+            {{#if image}}
+              <img src="{{image}}" alt="">
+            {{/if}}
+          </div>
           <div itemprop="articleBody" class="post-body">
             {{content}}
           </div>
