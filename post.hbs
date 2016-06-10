@@ -119,7 +119,7 @@
 
   if($('#toc')[0]){
     $("#toc").append('<ul class="post-toc nav"></ul>');
-    $(".post-body").children("h1,h2,h3,h4,h5,h6").each(function(i,item){
+    $(".post-body").children("h2,h3,h4,h5,h6").each(function(i,item){
       var tag = $(item).get(0).localName;
       $(".post-toc").append('<li><a class="post-toc-'+tag+'" href="#'+$(item).attr("id")+'">'+$(this).text()+'</a></li>');
     });

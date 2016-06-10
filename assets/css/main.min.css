@@ -3,7 +3,7 @@
  * A Ghost theme focused on content based on Medium design/ux
  * http://ghostium.oswaldoacauan.com/
  * @author Oswaldo Acauan http://oswaldoacauan.com
- * @version 3.0.1
+ * @version 3.1.0
  * Copyright 2013. MIT licensed.
  */
 
@@ -2392,7 +2392,7 @@ html {
 }
 
 body {
-  font: 400 20px/1.6 "Noto Serif",Georgia,Cambria,"Times New Roman",Times,serif;
+  font: 400 20px/1.6 "Noto Serif",Georgia,Cambria,"Times New Roman",Times,"Droid Sans",STXihei,"Microsoft Yahei",serif;
   background: #FFF;
   color: #333;
 }
@@ -2429,7 +2429,7 @@ input[type=reset] {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,"Droid Sans",STXihei,"Microsoft Yahei",sans-serif;
   font-weight: 400;
   border-radius: 3px;
   -webkit-transition: all .1s ease;
@@ -2641,7 +2641,7 @@ input[type=tel],
 input[type=color],
 select,
 textarea {
-  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,"Droid Sans",STXihei,"Microsoft Yahei",sans-serif;
   font-size: 1rem;
 }
 
@@ -2961,7 +2961,7 @@ h3,
 .h3,
 h4,
 .h4 {
-  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,"Droid Sans",STXihei,"Microsoft Yahei",sans-serif;
   font-weight: 700;
   word-wrap: break-word;
 }
@@ -3051,7 +3051,7 @@ h6,
 #toc .post-toc {
   padding-top: 20px;
   list-style: none;
-  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,"Droid Sans",STXihei,"Microsoft Yahei",sans-serif;
 }
 
 #toc .post-toc .post-toc-h2 {
@@ -3325,7 +3325,7 @@ body.drawer-transition {
 }
 
 .drawer-list-item {
-  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,"Droid Sans",STXihei,"Microsoft Yahei",sans-serif;
   font-weight: 700;
   font-size: 11px;
   color: #909090;
@@ -3570,7 +3570,7 @@ body.drawer-transition {
 .post-list-pagination {
   text-align: center;
   font-size: 14px;
-  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,"Droid Sans",STXihei,"Microsoft Yahei",sans-serif;
   padding: 25px 0;
   overflow: hidden;
   border-top: 1px solid #F2F2F2;
@@ -3621,7 +3621,7 @@ body.drawer-transition {
 .post-meta-list {
   line-height: 1;
   margin-bottom: 15px;
-  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,"Droid Sans",STXihei,"Microsoft Yahei",sans-serif;
 }
 
 .post-meta-item {
@@ -3643,7 +3643,7 @@ body.drawer-transition {
 
 .post-subtitle {
   font-style: italic;
-  font-family: "Noto Serif",Georgia,Cambria,"Times New Roman",Times,serif;
+  font-family: "Noto Serif",Georgia,Cambria,"Times New Roman",Times,"Droid Sans",STXihei,"Microsoft Yahei",serif;
   font-weight: 400;
   line-height: 1.2;
   padding-bottom: 15px;
@@ -3705,7 +3705,7 @@ body.drawer-transition {
   line-height: 1;
   margin-bottom: 5px;
   text-decoration: none;
-  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,"Droid Sans",STXihei,"Microsoft Yahei",sans-serif;
   font-size: 15px;
   font-weight: 700;
 }
@@ -3788,7 +3788,7 @@ body.drawer-transition {
 }
 
 .footer {
-  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,"Droid Sans",STXihei,"Microsoft Yahei",sans-serif;
   padding: 20px 0;
   border-top: 2px solid #F2F2F2;
   color: #B3B3B3;
