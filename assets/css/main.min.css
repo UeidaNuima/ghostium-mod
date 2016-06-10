@@ -3041,6 +3041,80 @@ h6,
   text-shadow: none;
 }
 
+#toc {
+  width: 280px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#toc .post-toc {
+  padding-top: 20px;
+  list-style: none;
+  font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+}
+
+#toc .post-toc .post-toc-h2 {
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+#toc .post-toc .post-toc-h3 {
+  padding-left: 40px;
+  font-size: 16px;
+}
+
+#toc .post-toc .post-toc-h4 {
+  padding-left: 60px;
+  font-size: 14px;
+}
+
+#toc .post-toc .post-toc-h5 {
+  padding-left: 80px;
+  font-size: 14px;
+}
+
+#toc .post-toc .post-toc-h6 {
+  padding-left: 100px;
+  font-size: 14px;
+}
+
+#toc .post-toc a {
+  padding: 5px;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+#toc .post-toc a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #57A3E8;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+#toc .post-toc li.active a {
+  color: #57A3E8;
+}
+
+#toc .post-toc li.active a:before {
+  width: 4px;
+}
+
+@media only screen and (max-width:1279px) {
+  #toc {
+    display: none;
+  }
+}
+
 html,
 body,
 #container {
